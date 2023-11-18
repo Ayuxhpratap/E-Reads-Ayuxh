@@ -250,4 +250,4 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-
+/* i installed scrolled reveal , also applied it but then i find aos better so i used aos but you can use scroll reveal too .. i mean , you got the file and cdn right !! */

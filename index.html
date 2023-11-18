@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- WEB HOST LOGO  -->
+
+    <link rel="icon" href="assets/er.png" type="image/png">
+
+    <!-- REMIX ICONS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ICON SCOUT-->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--FONTS : POPPINS / OUTFIT / MONTAGU / MONTSERRAT-->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- SWIPER JS -->
+
+    <link rel="stylesheet" href="style sheet/swiper-bundle.min.css" />
+
+    <!-- AOS JS -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- STYLE-SHEET -->
+
+    <link rel="stylesheet" href="style sheet/style.css">
+
+    <title>EverReadsCo.</title>
+
+</head>
+
+<body>
+
+
+
+    <!-- ========== NAV / HEADER  ==========-->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav_logo">
+                <i class="ri-book-2-line"></i> E-Reads
+            </a>
+
+            <div class="nav_menu">
+                <ul class="nav_list">
+
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active_link">
+                            <i class="ri-home-4-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#featured" class="nav_link">
+                            <i class="ri-book-3-line"></i>
+                            <span>Featured</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#discount" class="nav_link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>Offers</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#new" class="nav_link">
+                            <i class="ri-bookmark-line"></i>
+                            <span>Latest</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#testimonial" class="nav_link">
+                            <i class="ri-message-3-line"></i>
+                            <span>Testimonials</span>
+                        </a>
+                    </li>
+
+                    <!--<li class="nav_item">
+                        <a href="#" class="nav_link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>-->
+
+                </ul>
+            </div>
+
+            <div class="nav_actions">
+                <i class="ri-search-line search-button" id="search-button"></i>
+
+                <i class="ri-user-3-line login-button" id="login-button"></i>
+
+                <i class="ri-moon-line theme-button" id="theme-button"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- ========== SEARCH ========== -->
+
+
+
+    <div class="search" id="search-content">
+        <form action="" class="search_form">
+            <!--<i class="ri-search-line search_icon"></i>-->
+            <input type="search" placeholder="looking for something!?" class="search_input">
+        </form>
+
+        <i class="ri-close-line search_close" id="search-close"></i>
+    </div>
+
+
+
+    <!-- ========== LOGIN ========== -->
+
+
+
+    <div class="login grid" id="login-content">
+        <form action="" class="login_form grid">
+            <h3 class="login_title">Log In</h3>
+
+            <div class="login_group grid">
+                <div>
+                    <label for="login-email" class="login_label">Email</label>
+                    <input type="email" placeholder="Write Your Email" id="login-email" class="login_input">
+                </div>
+            </div>
+
+            <div class="login_group grid">
+                <div>
+                    <label for="login-pass" class="login_label">Password</label>
+                    <input type="password" placeholder="Enter Your Password" id="login-pass" class="login_input">
+                </div>
+            </div>
+
+            <div>
+                <span class="login_singup">
+                    You Don't Have An Account!? <a href="#">Sign Up</a>
+                </span>
+
+                <a href="#" class="login_forgot">
+                    You forgot your password
+                </a>
+
+                <button type="submit" class="login_button button">
+                    Log In
+                </button>
+            </div>
+        </form>
+
+        <i class="ri-close-line login_close" id="login-close"></i>
+    </div>
+
+
+
+    <!-- ========== MAIN ========== -->
+
+    <main class="main">
+
+        <!-- ========== HOME ==========-->
+
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data" data-aos="fade-in" data-aos-delay="600ms">
+                    <h1 class="home_title">
+                        Where Stories Know <br> <span class="line">No Limits</span>, <br> Only <span
+                            class="be">Beginnings</span>
+                    </h1>
+
+                    <p class="home_description">
+                        Embark on an endless journey of discovery with our vast collection of captivating ebooks.
+                    </p>
+
+                    <a href="#new" class="button buy_button">Explore</a>
+                    <a href="#contact" class="simp explore_button">Connect</a>
+                </div>
+
+                <div class="home_images" data-aos="fade-up" data-aos-delay="600ms">
+                    <div class="home_swiper swiper" >
+                        <div class="swiper-wrapper">
+
+                            <article class="home_article swiper-slide">
+                                <img src="assets/home-book-1.png" alt="" class="home_img">
+                            </article>
+                            <article class="home_article swiper-slide">
+                                <img src="assets/home-book-2.png" alt="" class="home_img">
+                            </article>
+                            <article class="home_article swiper-slide">
+                                <img src="assets/home-book-3.png" alt="" class="home_img">
+                            </article>
+                            <article class="home_article swiper-slide">
+                                <img src="assets/home-book-4.png" alt="" class="home_img">
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+
+        <section class="services_section" data-aos="fade-in" data-aos-delay="600ms">
+            <div class="services_container container grid">
+                <article class="services_card">
+                    <i class="ri-truck-line"></i>
+                    <h3 class="services_title">Free Delivery</h3>
+                    <p class="services_description">Across The Whole Nation</p>
+                </article>
+
+                <article class="services_card">
+                    <i class="ri-lock-2-line"></i>
+                    <h3 class="services_title">Secure Payments</h3>
+                    <p class="services_description">100% Security on Transitions</p>
+                </article>
+
+                <article class="services_card">
+                    <i class="ri-customer-service-2-line"></i>
+                    <h3 class="services_title">24/7 Support</h3>
+                    <p class="services_description">Call Us Anytime</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- FEATURED SECTION -->
+
+        <section class="features section" id="featured">
+            <h2 class="section_title">
+                <span class="feature">Featured</span> Books;
+            </h2>
+            <p class="features_para">
+                "Dive into handpicked gems – our curated featured book selection." 
+            </p>
+
+            <div class="featured_container container"  data-aos="fade-up" data-aos-delay="600ms">
+                <div class="featured_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-1.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-2.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-3.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-4.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-5.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-6.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-7.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-8.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-9.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured_card swiper-slide">
+                            <img src="assets/book-10.png" alt="">
+
+                            <h2 class="featured_title">Featured Book</h2>
+
+                            <div class="featured_prices">
+                                <span class="featured_discount">999 Rs/-</span>
+                                <span class="featured_price">1999 Rs/-</span>
+                            </div>
+
+                            <button class="button">Add To Cart</button>
+
+                            <div class="featured_actions">
+                                <button><i class="ri-search-line"></i></button>
+
+                                <button><i class="ri-heart-3-line"></i></button>
+
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DISCOUNT ====================-->
+        <section class="discount section" id="about">
+            <div class="discount_container container grid">
+                <div class="discount_data"  data-aos="fade-in" data-aos-delay="600ms">
+                    <h2 class="discount_title section_title">
+                        <span class="first">Why Us</span> aka E-Read !!
+                    </h2>
+                    <p class="discount_description">
+                        Hello, I'm Ayush Pratap, the founder of this vibrant e-book startup. Our passion for literature
+                        and technology led us to create a platform that redefines the way readers experience and engage
+                        with books. At E-REAL , we are committed to providing a diverse and curated collection of
+                        e-books that cater to every taste and interest. Our user-friendly interface ensures seamless
+                        navigation, making the discovery of your next favorite read a delightful experience.
+                    </p>
+
+                    <a href="#" class="anchor">show more</a>
+                </div>
+
+                <div class="discount_images">
+                    <img class="discount_img-1" src="assets/discount-book-1.png" alt="">
+                    <img class="discount_img-2" src="assets/discount-book-2.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section class="discount section" id="discount">
+            <div class="discount_container container grid">
+
+                <div class="discount_data" data-aos="fade-in" data-aos-delay="600ms">
+                    <h2 class="discount_title section_title">
+                        Up To 50% <span class="first">Discount</span> !!
+                    </h2>
+                    <p class="discount_description">
+                        "Attention ABESIT College students and alumni in Ghaziabad! As a gesture of appreciation for
+                        your commitment to education, we're excited to offer an exclusive 50% discount on all ebooks on
+                        our platform. Simply use the provided code at checkout to enjoy this special offer. Whether
+                        you're currently studying or have graduated from ABESIT, delve into a world of knowledge at half
+                        the price. Thank you for being a part of the ABESIT community!"
+                    </p>
+
+                    <a href="#new" class="button">Shop Now</a>
+                </div>
+
+                <div class="discount_images">
+                    <img class="discount_img-1" src="assets/book-5.png" alt="">
+                    <img class="discount_img-2" src="assets/book-6.png" alt="">
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!--==================== NEW BOOKS ====================-->
+        <section class="new section" id="new">
+            <h2 class="section_title">
+                New <span class="first">Releases</span>;
+            </h2>
+            <p class="section_para">
+                "Dive into fresh narratives with our latest ebook releases!"
+            </p>
+
+            <div class="new_container container"  data-aos="fade-up" data-aos-delay="600ms">
+                <div class="new_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-1.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-2.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-3.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-4.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-5.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-6.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-7.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-8.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-9.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-10.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="new_swiper swiper"  data-aos="fade-up" data-aos-delay="600ms">
+                    <div class="swiper-wrapper">
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-10.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-9.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-8.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-7.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-6.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-5.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-4.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-3.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-2.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#contact" class="nav_card swiper-slide">
+                            <img src="assets/book-1.png" alt="" class="new_img">
+
+                            <div>
+                                <h2 class="new_title">New Book</h2>
+                                <div class="new_prices">
+                                    <span class="new_discount">699 Rs/-</span>
+                                    <span class="new_price">1599 Rs/-</span>
+                                </div>
+
+                                <div class="new_stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== JOIN ====================-->
+        <section class="join section" id="join">
+            <div class="join_container">
+                <img class="join_bg" src="assets/sub bg.jpg" alt="">
+
+                <div class="join_data container grid">
+                    <h2 class="join_title section_title">
+                        Subscribe To Get <br>
+                        Latest Information
+                    </h2>
+
+                    <form action="https://formsubmit.co/d2a256100b58d5298df90efb37187eb1" method="post"
+                        class="join_form">
+                        <input type="email" placeholder="Your Email" class="join_input">
+                        <button type="submit" class="join_button button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section" id="testimonial">
+            <h2 class="section_title">
+                <span class="first">Customer</span> Opinions;
+            </h2>
+
+            <p class="testimonial_para">
+                that's what top buyers from our website said abut us..
+            </p>
+
+            <div class="testimonial_container container"  data-aos="fade-up" data-aos-delay="600ms">
+                <div class="testimonial_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="testimonial_card swiper-slide">
+                            <img class="testimonial_img" src="assets/testimonial-perfil-1.png" alt="">
+
+                            <h2 class="testimonial_title">ladki-1</h2>
+                            <p class="testimonial_description">
+                                "Immersive stories, seamless interface. E-Reads is my go-to for literary escapes. Highly
+                                recommended!"
+                            </p>
+
+                            <div class="testimonial_stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                        </article>
+
+                        <article class="testimonial_card swiper-slide">
+                            <img class="testimonial_img" src="assets/testimonial-perfil-2.png" alt="">
+
+                            <h2 class="testimonial_title">ladka-1</h2>
+                            <p class="testimonial_description">
+                                "E-Reads: where imagination meets innovation. Outstanding collection and a
+                                reader-friendly platform."
+                            </p>
+
+                            <div class="testimonial_stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                        </article>
+
+                        <article class="testimonial_card swiper-slide">
+                            <img class="testimonial_img" src="assets/testimonial-perfil-3.png" alt="">
+
+                            <h2 class="testimonial_title">ladki-2</h2>
+                            <p class="testimonial_description">
+                                "E-Reads exceeds expectations! Engaging e-books, user-friendly design—a bookworm's dream
+                                come true."
+                            </p>
+
+                            <div class="testimonial_stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                        </article>
+
+                        <article class="testimonial_card swiper-slide">
+                            <img class="testimonial_img" src="assets/testimonial-perfil-4.png" alt="">
+
+                            <h2 class="testimonial_title">ladka-2</h2>
+                            <p class="testimonial_description">
+                                The best website to buy books, the purchase
+                                is very easy to make and has great discounts.
+                            </p>
+
+                            <div class="testimonial_stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+        <div class="container contact_container">
+            <div class="contact_left">
+                <h2>Let's <span class="first">Connect</span> !!</h2>
+                <p>
+                    Our digital library is a treasure trove for book enthusiasts seeking captivating narratives and
+                    literary adventures. Join a community of avid readers who share a passion for the written word, and
+                    let's connect over the stories that captivate our hearts and minds.
+                </p>
+                <ul class="contact_socials">
+
+                    <a href="https://www.linkedin.com/in/ayush-pratap-singh-7716b2295/" target="_blank"
+                        class="footer_socials_links"><i class="ri-linkedin-line"></i></a>
+                    <a href="https://www.instagram.com/ayuxh_pratap_/" target="_blank" class="footer_socials_links"><i
+                            class="ri-instagram-line"></i></a>
+                    <a href="https://github.com/Ayuxhpratap" target="_blank" class="footer_socials_links"><i
+                            class="ri-github-line"></i></a>
+                    <!--<li><a href="" target="_blank"><i class="uil uil-instagram"></i></a></li>
+                    <li><a href="" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+                    <li><a href="" target="_blank"><i class="uil uil-google"></i></a></li>-->
+                </ul>
+            </div>
+            <form action="https://formsubmit.co/d2a256100b58d5298df90efb37187eb1" method="post" class="contact_form">
+                <input type="text" name="Name" placeholder="Your Name">
+                <input type="email" name="Name" placeholder="Your Email">
+                <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                <button type="submit" class="button">SEND <i class="uil uil-corner-down-right-alt"></i> </button>
+            </form>
+        </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer_container container grid"  data-aos="fade-up" data-aos-delay="600ms">
+            <div class="footer_head">
+                <a href="#" class="footer_logo"><i class="ri-book-3-line"></i>E-Read</a>
+
+                <p class="footer_description">
+                    Find and explore the best <br>
+                    eBooks from all your <br>
+                    favorite writers.
+                </p>
+            </div>
+
+            <div class="footer_data grid">
+                <div>
+                    <h3 class="footer_title">
+                        About
+                    </h3>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#contact" class="footer_link">Awards</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer_link">FAQs</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer_link">Privacy policy</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer_link">Terms of services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer_title">
+                        Company
+                    </h3>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#contact" class="footer_link">Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer_link">Community</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer_link">Our Team</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer_link">Hep Centre</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer_title">
+                        Contact
+                    </h3>
+
+                    <ul class="footer_links">
+                        <li>
+                            <addres class="footer_info">
+                                ABESIT College Of Engineering <br>
+                                ABESIT Campus Rd, <br>
+                                near Crossing Republik, NE-3, <br>
+                                Crossings Republik, Ghaziabad, <br>
+                                Uttar Pradesh 201009
+                            </addres>
+                        </li>
+                        <li>
+                            <addres class="footer_info">
+                                ayuaharshita14@gmail.com <br>
+                                +91 946 0865 839
+                            </addres>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer_title">
+                        Socials
+                    </h3>
+
+                    <div class="footer_socials">
+                        <a href="https://www.linkedin.com/in/ayush-pratap-singh-7716b2295/" target="_blank"
+                            class="footer_socials_links"><i class="ri-linkedin-line"></i></a>
+                        <a href="https://www.instagram.com/ayuxh_pratap_/" target="_blank"
+                            class="footer_socials_links"><i class="ri-instagram-line"></i></a>
+                        <a href="https://github.com/Ayuxhpratap" target="_blank" class="footer_socials_links"><i
+                                class="ri-github-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="footer_copy">
+            &#169; AYUSH PRATAP SINGH || BTECH CSE (1st year) || ABESIT , GHAZAIABAD
+        </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <a href="#" id="scroll_up" class="scroll_up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+
+
+    <!-- SWIPER JS -->
+
+    <script src="java script/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL -->
+
+    <!--<script src="java script/scrollreveal.min.js"></script>-->
+
+    <!-- AOS JS -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init({ duration: 1500, offset: 80 });
+    </script>
+
+    <!-- MAIN JS -->
+
+    <script src="java script/main.js"></script>
+
+</body>
+
+</html>

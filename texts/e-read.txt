@@ -1,0 +1,22 @@
+"Where Stories Know No Limits, Only Beginnings."
+
+Embark on an endless journey of discovery with our vast collection of captivating ebooks.
+
+Welcome to our ebook store, where the magic of literature meets the convenience of the digital age. Immerse yourself in a vast collection of captivating stories, thought-provoking non-fiction, and enriching content spanning genres and topics. Our platform is designed for book lovers who crave the freedom to explore new worlds, ideas, and perspectives with just a click. Whether you're a fiction enthusiast, a knowledge seeker, or someone in search of inspiration, our carefully curated selection of ebooks promises to satisfy every literary palate. Join us on a journey where the joy of reading is seamlessly blended with the ease of technology, offering you a gateway to endless literary adventures. Elevate your reading experience with our ebook store and discover the limitless possibilities that digital literature has to offer .
+
+
+--first-color: hsl(230, 62%, 56%);
+    --tittle-color: hsl(230, 70%, 16%);
+    --text-color: hsl(230, 16%, 45%);
+    --border-color: hsl(230, 50%, 90%);
+    --white-color: hsl(0, 0%, 100%);
+    --body-color: hsl(230, 100%, 96%);
+    --container-color: hsl(230, 100%, 97%);
+
+    --first-color: hsl(230, 62%, 56%);
+        --tittle-color: hsl(230, 48%, 85%);
+        --text-color: hsl(230, 16%, 70%);
+        --border-color: hsl(230, 12%, 18%);
+        --white-color: hsl(0, 0%, 100%);
+        --body-color: hsl(230, 12%, 8%);
+        --container-color: hsl(230, 12%, 12%);
